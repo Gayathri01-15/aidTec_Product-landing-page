@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+* {
+  margin: auto;
+  padding: 0px;
+}
+header {
+  display: flex;
+  background-color: #ff8ea3;
+  height: 90px;
+  flex-wrap: wrap;
+}
+ul {
+  display: flex;
+  padding-left: 650px;
+  flex-wrap: wrap;
+  
+}
+ul>a{
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  padding-right: 45px;
+  color: rgb(5, 5, 5);
+  font-family: 'Kanit', sans-serif;
+  font-size: 500px;
+}
+.head {
+  font-family: "Lilita One", sans-serif;
+  letter-spacing: 6px;
+}
+a:hover {
+  scale: 1.3;
+  color: rgb(0, 0, 0);
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  scale: 1.8;
+  width: 100%;
+}
+img:hover {
+  scale: 2;
+}
+.heading {
+  text-align: center;
+  color: #922445;
+  margin-top: 2px;
+  font-family: "Titillium Web", sans-serif;
+}
+.p {
+  position: absolute;
+  top: 625px;
+  left: 575px;
+}
+button {
+  margin-top: 40px;
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  color: #000000;
+  background-color: #ff4d6d;
+  border: #ff9671;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale3d(1.2,1.3,1.6);
+  
+}
+.content {
+  margin-top: 90px;
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  left: 179px;
+  transform: rotate(-18deg);
+}
+.features {
+  height: 160px;
+  width: 200px;
+  margin-top: 75px;
+  color: #aa4465;
+  background-color: rgb(249, 226, 226);
+  border-radius: 18px;
+  padding: 13px;
+  font-size: 16px;
+}
+.fa-clock,
+.fa-heart,
+.fa-leaf {
+  padding-left: 19px;
+  margin-bottom: 7px;
+  zoom: 350%;
+}
+.cam {
+  display: flex;
+  background-color: #aa4465;
+  margin-top: 40%;
+  align-content: space-between;
+}
+a {
+  display: flex;
+  margin-top: 5px;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+h4 {
+  margin-top: 18px;
+}
+footer {
+  background-color: #aa4465;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 470px;
+  margin-right: 470px;
+}
+.social > i {
+  margin-top: 45px;
+  cursor: pointer;
+}
+.social > i:hover {
+  scale: 1.7;
+  cursor: pointer;
+}
+.copy {
+  margin-top: 69px;
+  text-align: center;
+}
